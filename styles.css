@@ -1,41 +1,13 @@
-:root {
-    --squareNumber: 16;
-}
-
 h1 {
     text-align: center;
 }
 
-.container {
-    margin: auto;
-    margin-top: 10em;
-    background-color: rgb(255, 255, 255);
-    width: 80%;
-    height: auto;
-    display: flex;
+#container {
+	width: 800px;
+	height: 800px;
+	display: grid;
 }
 
-.settings {
-    padding: 2em;
-    background-color: rgb(184, 184, 184);
-    width: 40%;
-    
-}
-
-.sliderContainer {
-    display: flex;
-    gap: 1em;
-}
-
-#sliderInput {
-    width: 1.9em;
-    text-align: center;
-}
-
-.grid {
-    padding: 2em;
-    width: 50%;
-    display: grid;
-    grid-template-rows: repeat (var(--squareNumber), 5px);
-    grid-template-columns: repeat (var(--squareNumber), 5px);
+.gridItem {
+	outline: 1px solid black;
 }
