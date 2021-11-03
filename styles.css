@@ -8,8 +8,8 @@ h1 {
 }
 
 #container {
-	width: 800px;
-	height: 800px;
+	width: 80vh;
+	height: 80vh;
 	display: grid;
 }
 
@@ -17,6 +17,6 @@ h1 {
 	outline: 1px solid black;
 }
 
-/*.gridItem:hover {
-	background-color: black;
-} */
+#reset-btn {
+	margin-top: 1em;
+}
