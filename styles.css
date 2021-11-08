@@ -7,7 +7,27 @@ h1 {
 	justify-content: center;
 }
 
-#container {
+.settingsContainer {
+	background-color: rgb(231, 224, 224);
+	width: 30vh;
+	height: 80vh;
+	margin-right: 2em;
+}
+
+.sliderContainer {
+	display: flex;
+}
+
+#gridSlider {
+	margin: 20px;
+}
+
+#sliderOutput {
+	margin: 20px;
+}
+
+
+#gridContainer {
 	width: 80vh;
 	height: 80vh;
 	display: grid;
